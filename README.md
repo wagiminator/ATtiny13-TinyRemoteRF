@@ -1,5 +1,7 @@
 # TinyRemoteRF - 433MHz RF Remote Control based on ATtiny13A
-TinyRemote is an RF remote control based on an ATtiny13A microcontroller and a SYN115 ASK transmitter IC powered by a CR2032 coin cell battery.
+TinyRemoteRF is an RF remote control based on an ATtiny13A microcontroller and a SYN115 ASK transmitter IC powered by a CR2032 coin cell battery.
+
+- Project Files (EasyEDA): https://easyeda.com/wagiminator/attiny13-tinyremote-rf
 
 ![pic1.jpg](https://github.com/wagiminator/ATtiny13-TinyRemoteRF/blob/main/documentation/TinyRemoteRF_pic1.jpg)
 
