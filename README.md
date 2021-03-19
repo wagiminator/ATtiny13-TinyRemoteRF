@@ -3,12 +3,12 @@ TinyRemoteRF is an RF remote control based on an ATtiny13A microcontroller and a
 
 - Project Files (EasyEDA): https://easyeda.com/wagiminator/attiny13-tinyremote-rf
 
-![pic1.jpg](https://github.com/wagiminator/ATtiny13-TinyRemoteRF/blob/main/documentation/TinyRemoteRF_pic1.jpg)
+![pic1.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny13-TinyRemoteRF/main/documentation/TinyRemoteRF_pic1.jpg)
 
 # Hardware
 The wiring is shown below:
 
-![wiring.png](https://github.com/wagiminator/ATtiny13-TinyRemoteRF/blob/main/documentation/TinyRemoteRF_wiring.png)
+![wiring.png](https://raw.githubusercontent.com/wagiminator/ATtiny13-TinyRemoteRF/main/documentation/TinyRemoteRF_wiring.png)
 
 If you want to use only four buttons, you can leave KEY5 unsoldered and upload the 4-button version of the firmware. If you want to use all five buttons, you have to disable RESET on PB5 by burning the respective fuses after uploading the 5-button version of the firmware:
 
@@ -123,13 +123,13 @@ The accuracy of the internal oscillator of the ATtiny13 is +/-10% with the facto
 ## Receiver
 To test the RF remote control, a small sketch is attached that should run on most Arduino boards. A 433Mhz RF receiver module is required, which must be connected to the board. The DATA pin to which the receiver module is connected is set in the sketch. Start the serial monitor in the Arduino IDE and set 9600 baud. Received data is displayed here.
 
-![pic4.jpg](https://github.com/wagiminator/ATtiny13-TinyRemoteRF/blob/main/documentation/TinyRemoteRF_pic4.jpg)
+![pic4.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny13-TinyRemoteRF/main/documentation/TinyRemoteRF_pic4.jpg)
 
 ## Way ahead
 This remote control should also be able to control commercial radio-controlled sockets or other devices. The corresponding protocols can be found on the Internet. When the opportunity arises, I will test it and provide the appropriate firmware.
 
-![pic2.jpg](https://github.com/wagiminator/ATtiny13-TinyRemoteRF/blob/main/documentation/TinyRemoteRF_pic2.jpg)
-![pic3.jpg](https://github.com/wagiminator/ATtiny13-TinyRemoteRF/blob/main/documentation/TinyRemoteRF_pic3.jpg)
+![pic2.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny13-TinyRemoteRF/main/documentation/TinyRemoteRF_pic2.jpg)
+![pic3.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny13-TinyRemoteRF/main/documentation/TinyRemoteRF_pic3.jpg)
 
 # References, Links and Notes
 1. [ATtiny13A datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/doc8126.pdf)
