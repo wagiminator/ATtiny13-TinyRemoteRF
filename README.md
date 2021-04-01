@@ -1,7 +1,7 @@
 # TinyRemoteRF - 433MHz RF Remote Control based on ATtiny13A
 TinyRemoteRF is an RF remote control based on an ATtiny13A microcontroller and a SYN115 ASK transmitter IC powered by a CR2032 coin cell battery.
 
-- Project Files (EasyEDA): https://easyeda.com/wagiminator/attiny13-tinyremote-rf
+- Design Files (EasyEDA): https://easyeda.com/wagiminator/attiny13-tinyremote-rf
 
 ![pic1.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny13-TinyRemoteRF/main/documentation/TinyRemoteRF_pic1.jpg)
 
@@ -128,10 +128,16 @@ To test the RF remote control, a small sketch is attached that should run on mos
 ## Way ahead
 This remote control should also be able to control commercial radio-controlled sockets or other devices. The corresponding protocols can be found on the Internet. When the opportunity arises, I will test it and provide the appropriate firmware.
 
-![pic2.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny13-TinyRemoteRF/main/documentation/TinyRemoteRF_pic2.jpg)
-![pic3.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny13-TinyRemoteRF/main/documentation/TinyRemoteRF_pic3.jpg)
-
 # References, Links and Notes
 1. [ATtiny13A datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/doc8126.pdf)
 2. [SYN115 datasheet](https://www.rhydolabz.com/documents/33/SYN113-SYN115-datasheet-version-1-1-.0.pdf)
 3. [IR Remote Control](https://github.com/wagiminator/ATtiny13-TinyRemote)
+
+![pic2.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny13-TinyRemoteRF/main/documentation/TinyRemoteRF_pic2.jpg)
+![pic3.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny13-TinyRemoteRF/main/documentation/TinyRemoteRF_pic3.jpg)
+
+# License
+![license.png](https://i.creativecommons.org/l/by-sa/3.0/88x31.png)
+
+This work is licensed under Creative Commons Attribution-ShareAlike 3.0 Unported License. 
+(http://creativecommons.org/licenses/by-sa/3.0/)
